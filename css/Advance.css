@@ -1,0 +1,100 @@
+.separator2 {
+  width: 45px;
+  height: 4px;
+  background-color: #0febb2;
+  margin-bottom: 10px;
+}
+.Advance {
+  font-family: "Poppins", sans-serif;
+  display: -webkit-inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.AdvanceText {
+  max-width: 500px;
+  padding: 10px 0 10px 4vw;
+  display: block;
+  margin-top: 15vw;
+}
+
+.AdvanceText h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.897);
+}
+.AdvanceText h3 {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 0;
+  line-height: 35px;
+  color: #7a7a7a;
+  font-weight: 300;
+}
+.AdvanceText p {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 25px;
+  line-height: 35px;
+  color: #7a7a7af3;
+  font-weight: 200;
+  font-size: 17px;
+}
+.AdvanceCards {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  justify-content: center;
+}
+.AdvanceCards .col-1,
+.col-2 {
+  max-width: 280px;
+}
+
+.AdvanceCards i {
+  padding: 50px 0 20px 45px;
+  font-size: 50px;
+  color: aliceblue;
+  font-weight: lighter;
+}
+.AdvanceCards h3 {
+  padding-left: 40px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.AdvanceCards p {
+  padding-top: 10px;
+  line-height: 28px;
+  padding: 20px 20px 10px 40px;
+  font-size: 350;
+}
+.AdvanceCards .col-1 {
+  max-height: 1000px;
+  margin-left: 20px;
+  margin-top: 10vw;
+}
+.col-1 .card-blue,
+.card-yellow,
+.col-2 .card-purple,
+.card-green {
+  width: 220px;
+  height: 330px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.card-blue {
+  background-image: linear-gradient(to right, #3ad3ea, #2fd3e8);
+}
+.card-yellow {
+  background-image: linear-gradient(to right, #f5bb2f, #faca4b);
+}
+.card-purple {
+  background-image: linear-gradient(to right, #8e68d6, #a070e0);
+}
+.card-green {
+  background-image: linear-gradient(to right, #2fc36d, #2ed878);
+}
+.AdvanceCards .col-2 {
+  max-height: 1200px;
+  margin-top: 2vw;
+}

@@ -1,0 +1,75 @@
+header,
+section {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: linear-gradient(to right, #45acd7, #4ab5d8, #50c0d8);
+  background-image: linear-gradient(
+    180deg,
+    (to right, #46abd7, #45acd7, #4ab5d8, #50c0d8)
+  );
+  height: 150px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+header h2 {
+  color: #ffffff;
+  padding-left: 10vw;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10vw;
+}
+.btn-signup,
+.btn-login {
+  color: #fff;
+  margin-right: 1vw;
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px 28px;
+  transition: all 500ms ease-out;
+}
+.btn-signup {
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.btn-login {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 8 40px;
+}
+.btn-login:hover {
+  background: #fff;
+  color: #000;
+}
+.btn-signup:hover {
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  color: #000;
+}
+section {
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
+  padding-bottom: 70px;
+  position: relative;
+}
+section img {
+  background-image: linear-gradient(to right, #45acd7, #4ab5d8, #50c0d8);
+  background-image: linear-gradient(
+    180deg,
+    (to right, #45acd7, #4ab5d8, #50c0d8)
+  );
+}

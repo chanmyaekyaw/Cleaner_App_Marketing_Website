@@ -1,0 +1,121 @@
+.subscribe {
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+}
+.subscribe h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.subscribe-form input[type="text"] {
+  width: 350px;
+  padding: 18px 30px;
+  margin: 8vh 0 8px 2vw;
+  box-sizing: border-box;
+  border: 1px solid #eaf0f3;
+  border-radius: 30px;
+  background: #f9fcfe;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+}
+.subscribe-form input[type="email"] {
+  width: 350px;
+  padding: 18px 30px;
+  margin: 8vh 0 8px 2vw;
+  box-sizing: border-box;
+  border: 1px solid #eaf0f3;
+  border-radius: 30px;
+  background: #f9fcfe;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+}
+::placeholder {
+  color: rgba(8, 8, 8, 0.432);
+  opacity: 1;
+  font-weight: 400;
+  font-size: 18px;
+}
+.subscribe-form input:focus {
+  border: 1px solid #10ece5;
+  outline: none;
+}
+.subscribe-form input:focus::placeholder {
+  color: transparent;
+  opacity: 0;
+}
+.subscribe-btn {
+  outline: none;
+  text-decoration: none;
+  margin: 8vh 0 8px 2vw;
+  color: #fff;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 18px 30px;
+  transition: all 500ms ease-out;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #1bcae9, #29e2df);
+}
+.subs-inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15vh 5vw 5vh 6vw;
+}
+.subs-inner-wrapper a {
+  outline: none;
+  text-decoration: none;
+}
+.subs-inner-wrapper h2 {
+  margin-left: 7vw;
+  color: #161720;
+  font-size: 24px;
+}
+.subs-inner-wrapper ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 5vw;
+}
+.subs-inner-wrapper ul li a {
+  padding: 0 20px;
+  font-size: 18px;
+  color: #757575;
+}
+.subs-inner-wrapper ul li a:hover {
+  color: #0febb2;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5vw 0 6vw;
+}
+.footer p {
+  margin-left: 7vw;
+  color: #757575;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  margin-right: 5vw;
+}
+.footer ul li a {
+  color: #7575757a;
+  padding: 0 20px;
+  opacity: 1;
+  font-size: 18px;
+}
+.footer ul li a:hover {
+  color: #757575;
+  transition: opacity 250ms ease-out;
+}

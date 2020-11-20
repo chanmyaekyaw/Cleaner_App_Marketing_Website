@@ -1,0 +1,99 @@
+.ContactUs {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.contact-input {
+  min-width: 650px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.contact-input input {
+  width: 85%;
+  padding: 12px 20px 30px 0;
+  margin: 8px 0 8px 4vw;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgba(32, 31, 31, 0.103);
+  background: #f9fcfe;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+}
+.contact-input textarea {
+  width: 85%;
+  padding: 12px 20px 15px 0;
+  margin: 8px 0 8px 4vw;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgba(32, 31, 31, 0.103);
+  background: #f9fcfe;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 30px;
+  outline: none;
+}
+::placeholder {
+  color: rgba(8, 8, 8, 0.432);
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+.contact-input form {
+  margin-bottom: 30px;
+}
+.btn-contact {
+  outline: none;
+  text-decoration: none;
+  margin-left: 8vw;
+  color: #fff;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 15px 28px;
+  transition: all 500ms ease-out;
+  border: 1px solid transparent;
+  border-radius: 28px;
+  background-image: linear-gradient(to right, #1bcae9, #29e2df);
+}
+.contact-input input:focus,
+.contact-input textarea:focus {
+  border-bottom: 2px solid #10ece5;
+  outline: none;
+}
+.contact-input input:focus::placeholder,
+.contact-input textarea:focus::placeholder {
+  color: transparent;
+  opacity: 0;
+}
+.contact-text {
+  max-width: 400px;
+}
+.contact-text h4 {
+  padding: 12px 0 12px 0;
+  color: #a6a6a6;
+  font-weight: 600;
+  font-size: 16px;
+}
+.contact-text h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+.contact-text p {
+  font-size: 22px;
+  padding-top: 40px;
+  padding-bottom: 16px;
+  color: #8c8c8c;
+  font-weight: 200;
+}
+.contact-text h2 {
+  font-size: 25px;
+  cursor: pointer;
+  margin-bottom: 6vh;
+}
+.contact-text h2:hover {
+  color: #0febb2;
+}

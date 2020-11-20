@@ -1,0 +1,51 @@
+.separator {
+  margin-top: 35vh;
+  margin-left: 8vw;
+  width: 45px;
+  height: 4px;
+  background-color: #0febb2;
+}
+.BoostUp {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.BoostText {
+  min-width: 600px;
+  padding-left: 8vw;
+}
+.BoostText h1 {
+  margin-top: 10px;
+  font-size: 44px;
+  font-weight: 700;
+}
+.BoostText h3 {
+  font-size: 21px;
+  padding: 50px 0;
+  color: #413d3dc2;
+  font-weight: 100;
+}
+.BoostText ul {
+  margin-bottom: 30px;
+}
+.BoostText ul li {
+  list-style: none;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+}
+.BoostText ul li i {
+  color: #0febb2;
+  margin-right: 25px;
+}
+.BoostText ul li p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.BoostUp img {
+  max-width: 560px;
+  max-height: 100vh;
+  align-self: center;
+  cursor: pointer;
+}
