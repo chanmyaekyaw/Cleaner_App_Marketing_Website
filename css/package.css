@@ -2,13 +2,11 @@
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .package-text {
   max-width: 500px;
-  padding: 10px 0 10px 5vw;
+  padding: 10px 0 10px 8vw;
   display: block;
-  margin-left: 3vw;
 }
 .package-text h3 {
   font-family: "Open Sans", sans-serif;
@@ -71,42 +69,43 @@
 .packageCards {
   font-family: "Open Sans", sans-serif;
   display: flex;
-  margin: 0 1rem;
+  margin-left: 5vw;
   max-width: 550px;
+  position: relative;
 }
 .packageCards .business {
   width: 370px;
-  height: 544px;
+  height: 534px;
   border: none;
+  text-align: center;
   padding-bottom: 2rem;
   padding-top: 2.5rem;
   background: #fff;
-  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.082);
+  box-shadow: -5px -5px 8px rgba(0, 0, 0, 0.082);
+  z-index: 3;
 }
-.business {
-  text-align: center;
-}
-.packageCards h3 {
+
+.business h3 {
   font-size: 17px;
   letter-spacing: 1px;
   line-height: 38px;
 }
-.packageCards h4 {
+.business h4 {
   font-size: 19px;
   color: rgba(8, 8, 8, 0.425);
   font-weight: lighter;
 }
-.packageCards ul {
+.business ul {
   list-style: none;
 }
-.packageCards ul li {
+.business ul li {
   padding-top: 25px;
   line-height: 15px;
   color: #5f5f5ff3;
   font-weight: 500;
   font-size: 17px;
 }
-.packageCards button {
+.business button {
   padding: 12px;
   margin-top: 3rem;
   width: 150px;
@@ -117,14 +116,53 @@
   letter-spacing: 1px;
 }
 .packageCards .startup {
-  width: 270px;
-  height: 474px;
+  width: 340px;
+  height: 434px;
   border: none;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   padding-top: 2.5rem;
   background: #fff;
-  position: relative;
-  z-index: -1;
-  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.082);
-  margin-top: 30px;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.082);
+  margin-top: 10px;
+  left: 190px;
+  top: 45px;
+}
+.startup h3 {
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 38px;
+}
+.startup h4 {
+  font-size: 17px;
+  color: rgba(8, 8, 8, 0.425);
+  font-weight: lighter;
+}
+.startup ul {
+  list-style: none;
+}
+.startup ul li {
+  padding-top: 20px;
+  line-height: 15px;
+  color: #5f5f5ff3;
+  font-weight: 500;
+  font-size: 15px;
+}
+.startup button {
+  padding: 10px;
+  margin-top: 1.7rem;
+  width: 130px;
+  border: 2px solid #5f5f5f21;
+  border-radius: 30px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.packageCards button:hover {
+  background-image: linear-gradient(to right, #1bcae9, #29e2df);
+  color: #fff;
+  border: none;
 }
