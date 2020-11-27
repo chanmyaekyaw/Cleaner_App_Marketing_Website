@@ -45,6 +45,7 @@
 .subscribe-form input:focus {
   border: 1px solid #10ece5;
   outline: none;
+  transition: all 500ms ease-out;
 }
 .subscribe-form input:focus::placeholder {
   color: transparent;
@@ -117,5 +118,5 @@ footer .footer {
 }
 .footer ul li a:hover {
   color: #757575;
-  transition: opacity 250ms ease-out;
+  transition: all 250ms ease-out;
 }

@@ -165,4 +165,5 @@
   background-image: linear-gradient(to right, #1bcae9, #29e2df);
   color: #fff;
   border: none;
+  transition: all 200ms ease-out;
 }

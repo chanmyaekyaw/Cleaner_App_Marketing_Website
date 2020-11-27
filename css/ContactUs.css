@@ -35,11 +35,12 @@
   font-weight: 600;
   padding-top: 30px;
   outline: none;
+  margin-bottom: 30px;
 }
-::placeholder {
+/* ::placeholder {
   color: rgba(8, 8, 8, 0.432);
   opacity: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; */
 }
 .contact-input form {
   margin-bottom: 30px;
@@ -57,12 +58,17 @@
   transition: all 500ms ease-out;
   border: 1px solid transparent;
   border-radius: 28px;
-  background-image: linear-gradient(to right, #1bcae9, #29e2df);
+  background-image: linear-gradient(to bottom right, #1bcae9, #29e2df);
+}
+.btn-contact:hover {
+  background-image: linear-gradient(to bottom right, #29e2df, #1bcae9);
+  transition: all 100ms ease-out;
 }
 .contact-input input:focus,
 .contact-input textarea:focus {
   border-bottom: 2px solid #10ece5;
   outline: none;
+  transition: all 500ms ease-out;
 }
 .contact-input input:focus::placeholder,
 .contact-input textarea:focus::placeholder {
@@ -96,4 +102,5 @@
 }
 .contact-text h2:hover {
   color: #0febb2;
+  transition: all 200ms ease-out;
 }
